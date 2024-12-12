@@ -11,7 +11,6 @@ setup(
     name='ipython-futhark',
     version=version,
     description="Futhark language embedding into IPython",
-    long_description_markdown_filename='README.md',
     keywords='futhark ipython gpu',
     author='Titouan Christophe',
     author_email='moiandme@gmail.com',
@@ -34,7 +33,6 @@ setup(
     zip_safe=True,
 
     # Dependencies
-    setup_requires=['setuptools-markdown'],
     install_requires=['numpy', 'ipython'],
     extras_require={'opencl': ['pyopencl']}
 )
